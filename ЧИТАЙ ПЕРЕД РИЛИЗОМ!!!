@@ -1,0 +1,9 @@
+ПРИ БИЛДЕ:
+-удалить из CMakeLists.txt: set(COMPILE_OPTIONS "-Wpedantic;-Wall;-Wextra") и 
+  #set(CMAKE_TOOLCHAIN_FILE /home/lost_brain/vcpkg/scripts/buildsystems/vcpkg.cmake)
+-удалить все qDebug
+-удалить все не нужные обращения к БД
+-засунуть все лицензии
+-настроить сборку без сохранения закоментированного кода
+-удалить из main .cpp: "Вставить в начальные параметры CMake: -DCMAKE_TOOLCHAIN_FILE=/home/          lost_brain/vcpkg/scripts/buildsystems/vcpkg.cmake"
+-
